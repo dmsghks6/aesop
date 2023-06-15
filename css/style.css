@@ -276,7 +276,7 @@
 }
 
 .sec-1 .title-bottom{
-    font-size: clamp(3rem, calc(3rem + 1vw), 6.5rem);
+    font-size: clamp(3rem, calc(3rem + 3vw), 6.5rem);
     font-style: italic;
     
 }
@@ -544,7 +544,7 @@
 
 .sec-2 .main-title{
     width: 36vw;
-    font-size: clamp(1.75rem, calc(1.75rem + 1vw), 6.25rem);
+    font-size: clamp(1.75rem, calc(1.75rem + 3vw), 6.25rem);
     font-family: 'Tillana', cursive;
     text-transform: uppercase;
     line-height: 100px;
@@ -1214,6 +1214,8 @@ footer .footer-menu-detail.top{
 
 @media(max-width : 1200px){
 
+    
+
     .sec-1{
         padding: 120px 0 0px;
     }
@@ -1242,6 +1244,10 @@ footer .footer-menu-detail.top{
 
 
     /* sec-2  */
+
+    .sec-2 .main-title {
+        width: 100%;
+    }
 
     .sec-2 .container{
         width: 93.75vw;
@@ -1391,10 +1397,7 @@ footer .footer-menu-detail.top{
 
 @media(max-width : 750px){
 
-    .sec-2 .main-title {
-        width: 100%;
-    }
-
+  
     .sec-2 .item-box {
         display: block;
     }
