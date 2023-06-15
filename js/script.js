@@ -195,10 +195,10 @@ if(sct >= main && sct < sec1 ){
       },
       direction: "vertical",
       loop: true,
-      // autoplay: {
-      //     delay: 3500,
-      //     disableOnInteraction: false,
-      //   },
+      autoplay: {
+          delay: 3500,
+          disableOnInteraction: false,
+        },
         speed: 1500,
   });
 
