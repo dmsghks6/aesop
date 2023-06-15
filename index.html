@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- 파비콘  -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- 1. 스와이퍼 링크 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <script src="./js/jquery-1.12.4.js"></script>
+
+    <!-- 2. 스와이퍼 cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <title>aesop</title>
+</head>
+<body>
+    <div id="wrap">
+        <section class="main">
+            
+            <div class="container">
+                <div class="header-section">
+                    <div class="header-area">
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <div class="logo">
+                        <a href="#none" class="logo-btn">
+                            <svg aria-labelledby="aesop-6" class="Icon-module_base__1t53U Icon-module_dark__1AeBp Logo-module_icon__XoQqe" data-testid="data-testid-Icon" focusable="false" height="40" role="img" tabindex="-1" viewBox="0 0 489.7 154.3" width="120">
+                                <title id="aesop-6">aesop</title>
+                                <g><path d="M48.6,22.5L31.8,62.2h34.2L48.6,22.5z M28.6,70.3c-3.2,7.4-9.6,21.7-14.9,42c-1.9-0.3-3.5-0.9-6.6-0.9c-3.1,0-5,0.6-7.1,0.9C14.3,81.2,38,28.9,49.4,0c1.3,0.2,2.3,0.5,4,0.5c1.4,0,2.3-0.2,3.5-0.5c12.3,33.7,47.8,111.7,48.1,112.3c-2.7-0.5-5.5-0.9-9.5-0.9c-4.2,0-7.2,0.5-10.3,0.9c-5.6-19.2-12.2-33.2-16.2-42H28.6z"></path><path d="M172.4,66.6c0-5.3,0-26.6-19.2-26.6c-14,0-20.7,10.6-22.2,26.6H172.4z M130.9,73.3c0,4.5,0,13.6,4.3,21c7.4,12.1,17.8,12.5,22.5,12.5c15.7,0,23.1-9.6,25.5-13l1.9,0.4c-1,4.5-1,7.1-1.1,9.6c-7.1,6.7-16.8,10.5-29.8,10.5c-24.4,0-39.3-15.4-39.3-40.1c0-22.1,12.2-40.7,38.5-40.7c35.8,0,35.3,31.1,35.1,39.8H130.9z"></path><path d="M249.6,52.1c-0.6-2.4-1.6-6.4-6.2-9.6c-3.4-2.4-7.8-2.7-10.4-2.7c-9.8,0-14.9,5.1-14.9,12c0,9.3,9.5,12.7,15.1,14.1c14.3,3.7,25.8,6.7,25.8,22.8c0,12.2-8.5,25.8-30.8,25.8c-13,0-22-5.5-23.7-6.7c2.1-3.9,3.4-10.7,3.7-12.8l1.9-0.5c1.1,2.7,2.7,7.1,8.7,10.6c4,2.4,8.2,3,11.7,3c8.4,0,16.2-4,16.2-13.2c0-9.1-5.5-10.9-22.3-16.4c-6.9-2.3-18.3-7.2-18.3-21.3c0-9.1,5.6-23.9,27.8-23.9c11.1,0,17.5,3.4,21.2,5.3c-1.6,4.2-2.7,8-3.2,13.5H249.6z"></path><path d="M291.5,73.5c0,22.3,9.8,34.6,24.5,34.6c15.4,0,25.5-13.3,25.5-34.5c0-12.5-3.9-33.8-24.7-33.8C291.5,39.8,291.5,68.6,291.5,73.5 M357.9,73c0,25.5-17.6,41.5-42,41.5c-17,0-40.8-7.7-40.8-40.6c0-25,16.7-40.6,40.8-40.6 C346.3,33.4,357.9,53.4,357.9,73"></path><path d="M399.4,49.6c-3.2,4-6.6,9.8-6.6,25.7c0,14.1,3.2,19.4,6.6,23.4c4.1,5,9.6,7.9,17,7.9 c22.9,0,22.9-27.1,22.9-32.3c0-24.2-11.6-33-22-33C408.7,41.2,403.1,44.9,399.4,49.6 M419.3,114.7c-15.1,0-23.6-8.3-26.2-14.9 c0,25.2-0.2,39.8,0.8,54.5c-2.4-0.6-4.5-0.9-8.4-0.9c-4,0-6.1,0.3-8.6,0.9c1.3-20.8,1.8-41.9,1.8-62.7c0-14.6-0.3-34.3-0.8-57.6 c2.2,0.5,4.8,0.9,7.9,0.9c2.9,0,5.6-0.5,7.9-0.9c-0.6,8.8-0.6,11.2-0.6,14.6c2.6-4.2,9.5-15.4,27.3-15.4c16,0,35.6,11.7,35.6,40.3 C455.9,98.8,440.3,114.7,419.3,114.7"></path><rect x="131.8" y="13.5" width="44.3" height="5"></rect><path d="M477.2,98.1c0,1.6,0,3,0,4.4c1.3,0,4.3,0,4.3-2.3C481.5,98.1,479.2,98.1,477.2,98.1 M484.9,109.1 c-0.4,0-0.7-0.1-1.2-0.1c-0.4,0-0.8,0.1-1.5,0.1c-2-2.9-3.6-4.5-4.7-5.8h-0.4c0,1.8,0,3.2,0.2,5.8c-0.5,0-0.7-0.1-1.3-0.1 c-0.6,0-0.8,0.1-1.1,0.1c0.1-1.3,0.2-2.7,0.2-6.2c0-3-0.1-4.4-0.1-5.7c0.9,0,1.5,0,2.9,0c2.9,0,5.9,0,5.9,2.8c0,2.5-2.7,2.9-3.9,3 c0.8,1.1,4.4,5.1,5.1,5.9L484.9,109.1z M479.2,94.8c-4.8,0-8.5,3.8-8.5,8.6c0,4.9,3.6,8.6,8.5,8.6c4.9,0,8.5-3.7,8.5-8.6 C487.8,98.7,484.3,94.8,479.2,94.8 M479.2,92.9c5.9,0,10.5,4.7,10.5,10.5c0,5.9-4.7,10.5-10.5,10.5c-5.8,0-10.5-4.6-10.5-10.5 C468.8,97.5,473.5,92.9,479.2,92.9"></path>
+                                </g>
+                            </svg>
+                        </a>
+                       
+                    </div>
+                </div>
+
+                <div class="open-header">
+                    <ul class="menu">
+                        <li class="menu-name" title="Skin care">skin care</li>
+                        <li class="menu-name" title="Body & hand">body & hand</li>
+                        <li class="menu-name" title="Hair">hair</li>
+                        <li class="menu-name" title="Fragrance" >fragrance</li>
+                        <li class="menu-name" title="Home">home</li>
+                        <li class="menu-name" title="Kits & travel">kits & travel</li>
+                        <li class="menu-name" title="Gift">gift</li>
+                        <li class="menu-name" title="Read">read</li>
+                        <li class="menu-name" title="Stores">stores</li>
+                    </ul>
+                </div>
+
+                <div class="main-box">
+                    <div class="logo-2">
+                        <a href="#none" class="logo-btn">
+                            <svg aria-labelledby="aesop-6" class="Icon-module_base__1t53U Icon-module_dark__1AeBp Logo-module_icon__XoQqe" data-testid="data-testid-Icon" focusable="false"  role="img" tabindex="-1" viewBox="0 0 489.7 154.3" >
+                                <title id="aesop-6">aesop</title>
+                                <g><path d="M48.6,22.5L31.8,62.2h34.2L48.6,22.5z M28.6,70.3c-3.2,7.4-9.6,21.7-14.9,42c-1.9-0.3-3.5-0.9-6.6-0.9c-3.1,0-5,0.6-7.1,0.9C14.3,81.2,38,28.9,49.4,0c1.3,0.2,2.3,0.5,4,0.5c1.4,0,2.3-0.2,3.5-0.5c12.3,33.7,47.8,111.7,48.1,112.3c-2.7-0.5-5.5-0.9-9.5-0.9c-4.2,0-7.2,0.5-10.3,0.9c-5.6-19.2-12.2-33.2-16.2-42H28.6z"></path><path d="M172.4,66.6c0-5.3,0-26.6-19.2-26.6c-14,0-20.7,10.6-22.2,26.6H172.4z M130.9,73.3c0,4.5,0,13.6,4.3,21c7.4,12.1,17.8,12.5,22.5,12.5c15.7,0,23.1-9.6,25.5-13l1.9,0.4c-1,4.5-1,7.1-1.1,9.6c-7.1,6.7-16.8,10.5-29.8,10.5c-24.4,0-39.3-15.4-39.3-40.1c0-22.1,12.2-40.7,38.5-40.7c35.8,0,35.3,31.1,35.1,39.8H130.9z"></path><path d="M249.6,52.1c-0.6-2.4-1.6-6.4-6.2-9.6c-3.4-2.4-7.8-2.7-10.4-2.7c-9.8,0-14.9,5.1-14.9,12c0,9.3,9.5,12.7,15.1,14.1c14.3,3.7,25.8,6.7,25.8,22.8c0,12.2-8.5,25.8-30.8,25.8c-13,0-22-5.5-23.7-6.7c2.1-3.9,3.4-10.7,3.7-12.8l1.9-0.5c1.1,2.7,2.7,7.1,8.7,10.6c4,2.4,8.2,3,11.7,3c8.4,0,16.2-4,16.2-13.2c0-9.1-5.5-10.9-22.3-16.4c-6.9-2.3-18.3-7.2-18.3-21.3c0-9.1,5.6-23.9,27.8-23.9c11.1,0,17.5,3.4,21.2,5.3c-1.6,4.2-2.7,8-3.2,13.5H249.6z"></path><path d="M291.5,73.5c0,22.3,9.8,34.6,24.5,34.6c15.4,0,25.5-13.3,25.5-34.5c0-12.5-3.9-33.8-24.7-33.8C291.5,39.8,291.5,68.6,291.5,73.5 M357.9,73c0,25.5-17.6,41.5-42,41.5c-17,0-40.8-7.7-40.8-40.6c0-25,16.7-40.6,40.8-40.6 C346.3,33.4,357.9,53.4,357.9,73"></path><path d="M399.4,49.6c-3.2,4-6.6,9.8-6.6,25.7c0,14.1,3.2,19.4,6.6,23.4c4.1,5,9.6,7.9,17,7.9 c22.9,0,22.9-27.1,22.9-32.3c0-24.2-11.6-33-22-33C408.7,41.2,403.1,44.9,399.4,49.6 M419.3,114.7c-15.1,0-23.6-8.3-26.2-14.9 c0,25.2-0.2,39.8,0.8,54.5c-2.4-0.6-4.5-0.9-8.4-0.9c-4,0-6.1,0.3-8.6,0.9c1.3-20.8,1.8-41.9,1.8-62.7c0-14.6-0.3-34.3-0.8-57.6 c2.2,0.5,4.8,0.9,7.9,0.9c2.9,0,5.6-0.5,7.9-0.9c-0.6,8.8-0.6,11.2-0.6,14.6c2.6-4.2,9.5-15.4,27.3-15.4c16,0,35.6,11.7,35.6,40.3 C455.9,98.8,440.3,114.7,419.3,114.7"></path><rect x="131.8" y="13.5" width="44.3" height="5"></rect><path d="M477.2,98.1c0,1.6,0,3,0,4.4c1.3,0,4.3,0,4.3-2.3C481.5,98.1,479.2,98.1,477.2,98.1 M484.9,109.1 c-0.4,0-0.7-0.1-1.2-0.1c-0.4,0-0.8,0.1-1.5,0.1c-2-2.9-3.6-4.5-4.7-5.8h-0.4c0,1.8,0,3.2,0.2,5.8c-0.5,0-0.7-0.1-1.3-0.1 c-0.6,0-0.8,0.1-1.1,0.1c0.1-1.3,0.2-2.7,0.2-6.2c0-3-0.1-4.4-0.1-5.7c0.9,0,1.5,0,2.9,0c2.9,0,5.9,0,5.9,2.8c0,2.5-2.7,2.9-3.9,3 c0.8,1.1,4.4,5.1,5.1,5.9L484.9,109.1z M479.2,94.8c-4.8,0-8.5,3.8-8.5,8.6c0,4.9,3.6,8.6,8.5,8.6c4.9,0,8.5-3.7,8.5-8.6 C487.8,98.7,484.3,94.8,479.2,94.8 M479.2,92.9c5.9,0,10.5,4.7,10.5,10.5c0,5.9-4.7,10.5-10.5,10.5c-5.8,0-10.5-4.6-10.5-10.5 C468.8,97.5,473.5,92.9,479.2,92.9"></path>
+                                </g>
+                            </svg>
+                        </a>
+                       
+                    </div>
+    
+    
+                    <div class="explain">
+                        <p>For the curious.</p>
+                        <p>Founded 1987. </p>
+                        <p>Vegan and Cruelty-Free formulations.</p>
+                        <p>Certified B Corporation.</p>
+                    </div>
+    
+                    <div class="btn">
+                        <a href="#none" class="btn-more">
+                            <div class="left">
+                                <p>Read more</p>
+                                <p>our story</p>
+                            </div>
+                            <div class="right">
+                                <span class="arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="53" height="24" viewBox="0 0 53 24" fill="none">
+                                        <path d="M52.0607 13.0607C52.6464 12.4749 52.6464 11.5251 52.0607 10.9393L42.5147 1.3934C41.9289 0.807612 40.9792 0.807612 40.3934 1.3934C39.8076 1.97918 39.8076 2.92893 40.3934 3.51472L48.8787 12L40.3934 20.4853C39.8076 21.0711 39.8076 22.0208 40.3934 22.6066C40.9792 23.1924 41.9289 23.1924 42.5147 22.6066L52.0607 13.0607ZM0 13.5H51V10.5H0V13.5Z" fill="black"/>
+                                    </svg>
+                                </span>
+                            </div>
+                        
+                        </a>
+                    </div>
+                </div>
+
+                <div class="empty-box"></div>
+
+            
+            </div>
+        </section>
+
+        <section class="sec-1">
+            <div class="container">
+                <div class="headline">
+                    <div class="left">
+                        <span class="line"></span>
+                    </div>
+                    <div class="right">
+                        <div class="title-top">
+                            Discover by
+                        </div>
+                        <div class="title-bottom">
+                            category
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-zone">
+                    
+                    <div class="roof"></div>
+
+                    <div class="mask swiper firstSwiper">
+                        <div class="wrap-swiper swiper-wrapper">
+                            <div class="slide-1 swiper-slide">
+                                <div class="category-box">
+                                    <div class="img-btn-box">
+                                        <div class="img">
+                                            <img src="./img/sec-1/skin.png" alt="">
+                                        </div>
+                                        <div class="btn">
+                                            <a href="#none" class="btn-view">
+                                                <p>view all</p>
+                                                <span class="arrow">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="91" height="26" viewBox="0 0 91 26" fill="none">
+                                                        <path d="M0 24.5H88.6477L69.1152 1" stroke="#000" stroke-width="2"/>
+                                                        </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="explain ex-1">
+                                        <div class="title">
+                                            Skin Care
+                                        </div>
+
+                                        <div class="content">
+                                            Skin is ever-changing—it responds to environment, lifestyle and diet. Our range is designed with this in mind, catering to different preferences and needs to guide you towards optimal skin health.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="category-box">
+                                    <div class="img-btn-box">
+                                        <div class="img">
+                                            <img src="./img/sec-1/body.png" alt="">
+                                        </div>
+                                        <div class="btn">
+                                            <a href="#none" class="btn-view">
+                                                <p>view all</p>
+                                                <span class="arrow">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="91" height="26" viewBox="0 0 91 26" fill="none">
+                                                        <path d="M0 24.5H88.6477L69.1152 1" stroke="#000" stroke-width="2"/>
+                                                        </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="explain ex-2">
+                                        <div class="title">
+                                            Body & Hand
+                                        </div>
+
+                                        <div class="content">
+                                            All of our formulations for body and hand—whether their purpose is to effectively cleanse, hydrate or address matters of personal care—are intended to elevate otherwise ordinary experiences.
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                                
+                            </div>
+
+                            <div class="slide-2 swiper-slide">
+                                <div class="category-box">
+                                    <div class="img-btn-box">
+                                        <div class="img">
+                                            <img src="./img/sec-1/hair.png" alt="">
+                                        </div>
+                                        <div class="btn">
+                                            <a href="#none" class="btn-view">
+                                                <p>view all</p>
+                                                <span class="arrow">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="91" height="26" viewBox="0 0 91 26" fill="none">
+                                                        <path d="M0 24.5H88.6477L69.1152 1" stroke="#000" stroke-width="2"/>
+                                                        </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="explain ex-1">
+                                        <div class="title">
+                                            Hair
+                                        </div>
+
+                                        <div class="content">
+                                            Our approach to hair is honest and straightforward: a healthy scalp is the foundation for healthy hair.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="category-box">
+                                    <div class="img-btn-box">
+                                        <div class="img">
+                                            <img src="./img/sec-1/Parfum.png" alt="">
+                                        </div>
+                                        <div class="btn">
+                                            <a href="#none" class="btn-view">
+                                                <p>view all</p>
+                                                <span class="arrow">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="91" height="26" viewBox="0 0 91 26" fill="none">
+                                                        <path d="M0 24.5H88.6477L69.1152 1" stroke="#000" stroke-width="2"/>
+                                                        </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="explain ex-2">
+                                        <div class="title">
+                                            Fragrance
+                                        </div>
+                                        <div class="content">
+                                            Our fragrances are created with the hope that you find wearing them as pleasurable as we find developing them. Each fall into one—or, on occasion, two—of the following fragrance families: floral, fresh, woody and opulent.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slide-3 swiper-slide">
+                                <div class="category-box">
+                                    <div class="img-btn-box">
+                                        <div class="img">
+                                            <img src="./img/sec-1/home.png" alt="">
+                                        </div>
+                                        <div class="btn">
+                                            <a href="#none" class="btn-view">
+                                                <p>view all</p>
+                                                <span class="arrow">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="91" height="26" viewBox="0 0 91 26" fill="none">
+                                                        <path d="M0 24.5H88.6477L69.1152 1" stroke="#000" stroke-width="2"/>
+                                                        </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="explain ex-1">
+                                        <div class="title">
+                                            home
+                                        </div>
+
+                                        <div class="content">
+                                            While we may think of these products as for the home—the bedroom, the mantelpiece, the window sill—many are equally as suitable in other settings, including the office, the hotel room or the car, to enhance the interior.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="category-box">
+                                    <div class="img-btn-box">
+                                        <div class="img">
+                                            <img src="./img/sec-1/travel.png" alt="">
+                                        </div>
+                                        <div class="btn">
+                                            <a href="#none" class="btn-view">
+                                                <p>view all</p>
+                                                <span class="arrow">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="91" height="26" viewBox="0 0 91 26" fill="none">
+                                                        <path d="M0 24.5H88.6477L69.1152 1" stroke="#000" stroke-width="2"/>
+                                                        </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="explain ex-2">
+                                        <div class="title">
+                                            Kits & Travel
+                                        </div>
+                                        <div class="content">
+                                            Pocket-sized saviours and complementary collections of formulations—for use on journeys around the corner or around the globe, or for effortless gift-giving.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="slide-4 swiper-slide">
+                                <div class="category-box">
+                                    <div class="img-btn-box">
+                                        <div class="img">
+                                            <img src="./img/sec-1/gift.png" alt="">
+                                        </div>
+                                        <div class="btn">
+                                            <a href="#none" class="btn-view">
+                                                <p>view all</p>
+                                                <span class="arrow">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="91" height="26" viewBox="0 0 91 26" fill="none">
+                                                        <path d="M0 24.5H88.6477L69.1152 1" stroke="#000" stroke-width="2"/>
+                                                        </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="explain ex-1">
+                                        <div class="title">
+                                            gift
+                                        </div>
+
+                                        <div class="content">
+                                            Browse the complete range of gift options at leisure, with the assistance of the Gift Guide.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="category-box">
+                                    <div class="img-btn-box">
+                                        <div class="img">
+                                            <img src="./img/sec-1/read.png" alt="">
+                                        </div>
+                                        <div class="btn">
+                                            <a href="#none" class="btn-view">
+                                                <p>view all</p>
+                                                <span class="arrow">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="91" height="26" viewBox="0 0 91 26" fill="none">
+                                                        <path d="M0 24.5H88.6477L69.1152 1" stroke="#000" stroke-width="2"/>
+                                                        </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="explain ex-2">
+                                        <div class="title">
+                                            our story
+                                        </div>
+                                        <div class="content">
+                                            We offer skin, hair and body care formulations created with meticulous attention to detail, and with efficacy and sensory pleasure in mind.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    
+                        </div>
+
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+             
+                </div>
+
+                
+            
+            </div>
+        </section>
+
+        <section class="sec-2">
+
+            <div class="container">
+
+                <div class="left-zone">
+                    <video class="video-1" src="./video/퍼퓸.mp4" autoplay muted loop playsinline data-keepplaying ></video>
+                    <video class="video-2" src="./video/퍼퓸3.mp4" autoplay muted loop playsinline data-keepplaying></video>
+                </div>
+                <div class="right-zone">
+                    <div class="wrap-item-box">
+                        <div class="explain-box offset-box1">
+    
+                            <div class="wrap-txt">
+                                <div class="logo">
+                                    <svg aria-labelledby="aesop-6" class="Icon-module_base__1t53U Icon-module_dark__1AeBp Logo-module_icon__XoQqe" data-testid="data-testid-Icon" focusable="false" height="40" role="img" tabindex="-1" viewBox="0 0 489.7 154.3" width="120">
+                                        <title id="aesop-6">aesop</title>
+                                        <g><path d="M48.6,22.5L31.8,62.2h34.2L48.6,22.5z M28.6,70.3c-3.2,7.4-9.6,21.7-14.9,42c-1.9-0.3-3.5-0.9-6.6-0.9c-3.1,0-5,0.6-7.1,0.9C14.3,81.2,38,28.9,49.4,0c1.3,0.2,2.3,0.5,4,0.5c1.4,0,2.3-0.2,3.5-0.5c12.3,33.7,47.8,111.7,48.1,112.3c-2.7-0.5-5.5-0.9-9.5-0.9c-4.2,0-7.2,0.5-10.3,0.9c-5.6-19.2-12.2-33.2-16.2-42H28.6z"></path><path d="M172.4,66.6c0-5.3,0-26.6-19.2-26.6c-14,0-20.7,10.6-22.2,26.6H172.4z M130.9,73.3c0,4.5,0,13.6,4.3,21c7.4,12.1,17.8,12.5,22.5,12.5c15.7,0,23.1-9.6,25.5-13l1.9,0.4c-1,4.5-1,7.1-1.1,9.6c-7.1,6.7-16.8,10.5-29.8,10.5c-24.4,0-39.3-15.4-39.3-40.1c0-22.1,12.2-40.7,38.5-40.7c35.8,0,35.3,31.1,35.1,39.8H130.9z"></path><path d="M249.6,52.1c-0.6-2.4-1.6-6.4-6.2-9.6c-3.4-2.4-7.8-2.7-10.4-2.7c-9.8,0-14.9,5.1-14.9,12c0,9.3,9.5,12.7,15.1,14.1c14.3,3.7,25.8,6.7,25.8,22.8c0,12.2-8.5,25.8-30.8,25.8c-13,0-22-5.5-23.7-6.7c2.1-3.9,3.4-10.7,3.7-12.8l1.9-0.5c1.1,2.7,2.7,7.1,8.7,10.6c4,2.4,8.2,3,11.7,3c8.4,0,16.2-4,16.2-13.2c0-9.1-5.5-10.9-22.3-16.4c-6.9-2.3-18.3-7.2-18.3-21.3c0-9.1,5.6-23.9,27.8-23.9c11.1,0,17.5,3.4,21.2,5.3c-1.6,4.2-2.7,8-3.2,13.5H249.6z"></path><path d="M291.5,73.5c0,22.3,9.8,34.6,24.5,34.6c15.4,0,25.5-13.3,25.5-34.5c0-12.5-3.9-33.8-24.7-33.8C291.5,39.8,291.5,68.6,291.5,73.5 M357.9,73c0,25.5-17.6,41.5-42,41.5c-17,0-40.8-7.7-40.8-40.6c0-25,16.7-40.6,40.8-40.6 C346.3,33.4,357.9,53.4,357.9,73"></path><path d="M399.4,49.6c-3.2,4-6.6,9.8-6.6,25.7c0,14.1,3.2,19.4,6.6,23.4c4.1,5,9.6,7.9,17,7.9 c22.9,0,22.9-27.1,22.9-32.3c0-24.2-11.6-33-22-33C408.7,41.2,403.1,44.9,399.4,49.6 M419.3,114.7c-15.1,0-23.6-8.3-26.2-14.9 c0,25.2-0.2,39.8,0.8,54.5c-2.4-0.6-4.5-0.9-8.4-0.9c-4,0-6.1,0.3-8.6,0.9c1.3-20.8,1.8-41.9,1.8-62.7c0-14.6-0.3-34.3-0.8-57.6 c2.2,0.5,4.8,0.9,7.9,0.9c2.9,0,5.6-0.5,7.9-0.9c-0.6,8.8-0.6,11.2-0.6,14.6c2.6-4.2,9.5-15.4,27.3-15.4c16,0,35.6,11.7,35.6,40.3 C455.9,98.8,440.3,114.7,419.3,114.7"></path><rect x="131.8" y="13.5" width="44.3" height="5"></rect><path d="M477.2,98.1c0,1.6,0,3,0,4.4c1.3,0,4.3,0,4.3-2.3C481.5,98.1,479.2,98.1,477.2,98.1 M484.9,109.1 c-0.4,0-0.7-0.1-1.2-0.1c-0.4,0-0.8,0.1-1.5,0.1c-2-2.9-3.6-4.5-4.7-5.8h-0.4c0,1.8,0,3.2,0.2,5.8c-0.5,0-0.7-0.1-1.3-0.1 c-0.6,0-0.8,0.1-1.1,0.1c0.1-1.3,0.2-2.7,0.2-6.2c0-3-0.1-4.4-0.1-5.7c0.9,0,1.5,0,2.9,0c2.9,0,5.9,0,5.9,2.8c0,2.5-2.7,2.9-3.9,3 c0.8,1.1,4.4,5.1,5.1,5.9L484.9,109.1z M479.2,94.8c-4.8,0-8.5,3.8-8.5,8.6c0,4.9,3.6,8.6,8.5,8.6c4.9,0,8.5-3.7,8.5-8.6 C487.8,98.7,484.3,94.8,479.2,94.8 M479.2,92.9c5.9,0,10.5,4.7,10.5,10.5c0,5.9-4.7,10.5-10.5,10.5c-5.8,0-10.5-4.6-10.5-10.5 C468.8,97.5,473.5,92.9,479.2,92.9"></path>
+                                        </g>
+                                    </svg>
+                                </div>
+        
+                                <div class="sub-title">
+                                    Fragrance
+                                </div>
+        
+                                <div class="main-title">
+                                    Our personal 
+                                    scents
+                                </div>
+        
+                                <div class="explain">
+                                    <p>Unorthodox, evocative, and refined, </p> 
+                                    <p>Aesop fragrances are sensory bridges to memory</p>  
+                                    <p>and connection points to those around us.</p> 
+                                </div>
+                            </div>
+                       
+    
+                        </div>
+    
+                        <div class="explain-box offset-box2">
+                            <div class="item-box">
+                                <div class="left-area">
+                                    <img src="./img/sec-2/parfum1.png" alt="">
+                                </div>
+                                <div class="right-area">
+                                    <div class="item-name">
+                                        Gloam Eau de Parfum
+                                    </div>
+    
+                                    <div class="description">
+                                        Opening with arresting accords of spice, this fragrance unfurls rousing florals: sweet Orange Flower, warm Jasmine Sambac and a powdery, earthy blend of Iris and Patchouli.
+                                    </div>
+    
+                                    <div class="line">
+                                    </div>
+    
+                                    <div class="detail-info">
+                                        <div class="info-box">
+                                            <p>Aroma</p>
+                                            <span>Floral, spicy, green</span>
+                                        </div>
+                                        <div class="info-box">
+                                            <p>Suited to</p>
+                                            <span>All genders; observers, soul-searchers, theorists</span>
+                                        </div>
+                                        <div class="info-box">
+                                            <p>Size</p>
+                                            <span>50 mL</span>
+                                        </div>
+                                    </div>
+    
+                                    <div class="btn">
+                                        <a href="#none" class="add-btn">
+                                            Add your cart : $220.00
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+                        <div class="explain-box offset-box3">
+                            <div class="item-box">
+                                <div class="left-area">
+                                    <img src="./img/sec-2/parfum2.png" alt="">
+                                </div>
+                                <div class="right-area">
+                                    <div class="item-name">
+                                        Eidesis Eau de Parfum
+                                    </div>
+    
+                                    <div class="description">
+                                        A beguiling fragrance with bright opening notes that develop into deep spice, damp earth and dry woods.
+                                    </div>
+    
+                                    <div class="line">
+                                    </div>
+    
+                                    <div class="detail-info">
+                                        <div class="info-box">
+                                            <p>Aroma</p>
+                                            <span>Woody, spicy, ambery</span>
+                                        </div>
+                                        <div class="info-box">
+                                            <p>Suited to</p>
+                                            <span>All genders; dreamers, pond-gazers, visionaries</span>
+                                        </div>
+                                        <div class="info-box">
+                                            <p>Size</p>
+                                            <span>50 mL</span>
+                                        </div>
+                                    </div>
+    
+                                    <div class="btn">
+                                        <a href="#none" class="add-btn">
+                                            Add your cart : $220.00
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="explain-box offset-box4">
+                            <div class="item-box">
+                                <div class="left-area">
+                                    <img src="./img/sec-2/parfum3.png" alt="">
+                                </div>
+                                <div class="right-area">
+                                    <div class="item-name">
+                                        Miraceti Eau de Parfum
+                                    </div>
+    
+                                    <div class="description">
+                                        A warm, resinous fragrance with peppery, herbal notes underpinned by woody, earthy accords that evoke a hint of the sea and musk.
+                                    </div>
+    
+                                    <div class="line">
+                                    </div>
+    
+                                    <div class="detail-info">
+                                        <div class="info-box">
+                                            <p>Aroma</p>
+                                            <span>Resinous, woody, spicy</span>
+                                        </div>
+                                        <div class="info-box">
+                                            <p>Suited to</p>
+                                            <span>All genders; seafarers, storytellers, idealists</span>
+                                        </div>
+                                        <div class="info-box">
+                                            <p>Size</p>
+                                            <span>50 mL</span>
+                                        </div>
+                                    </div>
+    
+                                    <div class="btn">
+                                        <a href="#none" class="add-btn">
+                                            Add your cart : $220.00
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="explain-box offset-box5">
+                            <div class="item-box">
+                                <div class="left-area">
+                                    <img src="./img/sec-2/parfum4.png" alt="">
+                                </div>
+                                <div class="right-area">
+                                    <div class="item-name">
+                                        Karst Eau de Parfum
+                                    </div>
+    
+                                    <div class="description">
+                                        A moody yet fresh fragrance reminiscent of cliffside vegetation and the seashore, with mineral top notes and stormy, metallic base accords.
+                                    </div>
+    
+                                    <div class="line">
+                                    </div>
+    
+                                    <div class="detail-info">
+                                        <div class="info-box">
+                                            <p>Aroma</p>
+                                            <span>Fresh, herbaceous, marine</span>
+                                        </div>
+                                        <div class="info-box">
+                                            <p>Suited to</p>
+                                            <span>All genders; pragmatists, prospectors, existentialists</span>
+                                        </div>
+                                        <div class="info-box">
+                                            <p>Size</p>
+                                            <span>50 mL</span>
+                                        </div>
+                                    </div>
+    
+                                    <div class="btn">
+                                        <a href="#none" class="add-btn">
+                                            Add your cart : $220.00
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                    </div>
+                </div>
+
+            </div>
+         
+        </section>
+
+        <section class="sec-3">
+            <div class="container">
+                <div class="banner-box">
+                    <div class="left"></div>
+                    <div class="mid">
+                        <div class="mid-top">
+                            <div class="mask swiper secondSwiper">
+                                <div class="wrap-swiper swiper-wrapper">
+                                  <div class="swiper-slide">
+                                        <img src="./img/sec-3/dom-1.png" alt="">
+                                  </div>
+                                  <div class="swiper-slide">
+                                        <img src="./img/sec-3/dom-2.jpg" alt="">
+                                  </div>
+                                  <div class="swiper-slide">
+                                        <img src="./img/sec-3/dom-3.jpg" alt="">
+                                  </div>
+                            
+                                </div>
+    
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+
+                        <div class="mid-bottom">
+                            <div class="txt">
+                                We offer skin, hair and body care 
+                                formulations created with meticulous 
+                                attention to detail, and with efficacy 
+                                and sensory pleasure in mind.
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="right">
+                        <div class="right-top">
+                            <div class="txt">
+                                <div class="title">
+                                    well-considered 
+                                    design improves our lives.
+                                </div>
+
+                                <div class="detail">
+                                    A sincere interest in intelligent 
+                                    and sustainable design extends
+                                    to every aspect of Aesop’s workings.
+                                    Just as meticulous research is integral
+                                    to the formulation of each product,
+                                    our utilitarian containers are created 
+                                    with utmost care to ensure they function 
+                                    with ease and are pleasing to our eyes.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="right-bottom"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec-4">
+            <div class="container">
+                <div class="banner-box">
+                    <div class="main-title">
+                        Store locator
+                    </div>
+
+                    <div class="sub-title">
+                        Our consultants are available to host you in-store 
+                        and provide tailored guidance on gift purchases.
+                    </div>
+
+                    <div class="line-box">
+                        <div class="store-img-box">
+                            <div class="inner inner1">
+                               <!-- <img src="./img/store/store1.webp" alt="" class="store-1"> -->
+
+                               <div class="go-btn">
+                                    <div class="location">
+                                        Aesop <br> 
+                                        Seongsu
+                                    </div>
+                                    <div class="arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="79" height="19" viewBox="0 0 79 19" fill="none">
+                                            <path d="M0.755707 17.3788H75.6543L59.1512 1.3291" stroke="#fff" stroke-width="2"/>
+                                        </svg>
+                                    </div>
+                               </div>
+                            </div>
+
+                            <div class="inner inner2">
+                                <!-- <img src="./img/store/store2.jpg" alt="" class="store-2"> -->
+ 
+                                <div class="go-btn">
+                                     <div class="location">
+                                        Aesop <br> 
+                                        Seochon
+                                     </div>
+                                     <div class="arrow">
+                                         <svg xmlns="http://www.w3.org/2000/svg" width="79" height="19" viewBox="0 0 79 19" fill="none">
+                                             <path d="M0.755707 17.3788H75.6543L59.1512 1.3291" stroke="#fff" stroke-width="2"/>
+                                         </svg>
+                                     </div>
+                                </div>
+                             </div>
+
+                             <div class="inner inner3">
+                                <!-- <img src="./img/store/store3.jpg" alt="" class="store-3"> -->
+ 
+                                <div class="go-btn">
+                                     <div class="location">
+                                        Aesop <br> 
+                                        ifc-mall
+                                     </div>
+                                     <div class="arrow">
+                                         <svg xmlns="http://www.w3.org/2000/svg" width="79" height="19" viewBox="0 0 79 19" fill="none">
+                                             <path d="M0.755707 17.3788H75.6543L59.1512 1.3291" stroke="#fff" stroke-width="2"/>
+                                         </svg>
+                                     </div>
+                                </div>
+                             </div>
+
+                             <div class="inner inner4">
+                                <!-- <img src="./img/store/store1.webp" alt="" class="store-4"> -->
+ 
+                                <div class="go-btn">
+                                     <div class="location">
+                                        Aesop <br> 
+                                        HanNam
+                                     </div>
+                                     <div class="arrow">
+                                         <svg xmlns="http://www.w3.org/2000/svg" width="79" height="19" viewBox="0 0 79 19" fill="none">
+                                             <path d="M0.755707 17.3788H75.6543L59.1512 1.3291" stroke="#fff" stroke-width="2"/>
+                                         </svg>
+                                     </div>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="banner-box">
+                    <div class="left-area">
+                        <div class="logo">
+                            <svg aria-labelledby="aesop-6" class="Icon-module_base__1t53U Icon-module_dark__1AeBp Logo-module_icon__XoQqe" data-testid="data-testid-Icon" focusable="false" height="40" role="img" tabindex="-1" viewBox="0 0 489.7 154.3" width="120">
+                                <title id="aesop-6">aesop</title>
+                                <g><path d="M48.6,22.5L31.8,62.2h34.2L48.6,22.5z M28.6,70.3c-3.2,7.4-9.6,21.7-14.9,42c-1.9-0.3-3.5-0.9-6.6-0.9c-3.1,0-5,0.6-7.1,0.9C14.3,81.2,38,28.9,49.4,0c1.3,0.2,2.3,0.5,4,0.5c1.4,0,2.3-0.2,3.5-0.5c12.3,33.7,47.8,111.7,48.1,112.3c-2.7-0.5-5.5-0.9-9.5-0.9c-4.2,0-7.2,0.5-10.3,0.9c-5.6-19.2-12.2-33.2-16.2-42H28.6z"></path><path d="M172.4,66.6c0-5.3,0-26.6-19.2-26.6c-14,0-20.7,10.6-22.2,26.6H172.4z M130.9,73.3c0,4.5,0,13.6,4.3,21c7.4,12.1,17.8,12.5,22.5,12.5c15.7,0,23.1-9.6,25.5-13l1.9,0.4c-1,4.5-1,7.1-1.1,9.6c-7.1,6.7-16.8,10.5-29.8,10.5c-24.4,0-39.3-15.4-39.3-40.1c0-22.1,12.2-40.7,38.5-40.7c35.8,0,35.3,31.1,35.1,39.8H130.9z"></path><path d="M249.6,52.1c-0.6-2.4-1.6-6.4-6.2-9.6c-3.4-2.4-7.8-2.7-10.4-2.7c-9.8,0-14.9,5.1-14.9,12c0,9.3,9.5,12.7,15.1,14.1c14.3,3.7,25.8,6.7,25.8,22.8c0,12.2-8.5,25.8-30.8,25.8c-13,0-22-5.5-23.7-6.7c2.1-3.9,3.4-10.7,3.7-12.8l1.9-0.5c1.1,2.7,2.7,7.1,8.7,10.6c4,2.4,8.2,3,11.7,3c8.4,0,16.2-4,16.2-13.2c0-9.1-5.5-10.9-22.3-16.4c-6.9-2.3-18.3-7.2-18.3-21.3c0-9.1,5.6-23.9,27.8-23.9c11.1,0,17.5,3.4,21.2,5.3c-1.6,4.2-2.7,8-3.2,13.5H249.6z"></path><path d="M291.5,73.5c0,22.3,9.8,34.6,24.5,34.6c15.4,0,25.5-13.3,25.5-34.5c0-12.5-3.9-33.8-24.7-33.8C291.5,39.8,291.5,68.6,291.5,73.5 M357.9,73c0,25.5-17.6,41.5-42,41.5c-17,0-40.8-7.7-40.8-40.6c0-25,16.7-40.6,40.8-40.6 C346.3,33.4,357.9,53.4,357.9,73"></path><path d="M399.4,49.6c-3.2,4-6.6,9.8-6.6,25.7c0,14.1,3.2,19.4,6.6,23.4c4.1,5,9.6,7.9,17,7.9 c22.9,0,22.9-27.1,22.9-32.3c0-24.2-11.6-33-22-33C408.7,41.2,403.1,44.9,399.4,49.6 M419.3,114.7c-15.1,0-23.6-8.3-26.2-14.9 c0,25.2-0.2,39.8,0.8,54.5c-2.4-0.6-4.5-0.9-8.4-0.9c-4,0-6.1,0.3-8.6,0.9c1.3-20.8,1.8-41.9,1.8-62.7c0-14.6-0.3-34.3-0.8-57.6 c2.2,0.5,4.8,0.9,7.9,0.9c2.9,0,5.6-0.5,7.9-0.9c-0.6,8.8-0.6,11.2-0.6,14.6c2.6-4.2,9.5-15.4,27.3-15.4c16,0,35.6,11.7,35.6,40.3 C455.9,98.8,440.3,114.7,419.3,114.7"></path><rect x="131.8" y="13.5" width="44.3" height="5"></rect><path d="M477.2,98.1c0,1.6,0,3,0,4.4c1.3,0,4.3,0,4.3-2.3C481.5,98.1,479.2,98.1,477.2,98.1 M484.9,109.1 c-0.4,0-0.7-0.1-1.2-0.1c-0.4,0-0.8,0.1-1.5,0.1c-2-2.9-3.6-4.5-4.7-5.8h-0.4c0,1.8,0,3.2,0.2,5.8c-0.5,0-0.7-0.1-1.3-0.1 c-0.6,0-0.8,0.1-1.1,0.1c0.1-1.3,0.2-2.7,0.2-6.2c0-3-0.1-4.4-0.1-5.7c0.9,0,1.5,0,2.9,0c2.9,0,5.9,0,5.9,2.8c0,2.5-2.7,2.9-3.9,3 c0.8,1.1,4.4,5.1,5.1,5.9L484.9,109.1z M479.2,94.8c-4.8,0-8.5,3.8-8.5,8.6c0,4.9,3.6,8.6,8.5,8.6c4.9,0,8.5-3.7,8.5-8.6 C487.8,98.7,484.3,94.8,479.2,94.8 M479.2,92.9c5.9,0,10.5,4.7,10.5,10.5c0,5.9-4.7,10.5-10.5,10.5c-5.8,0-10.5-4.6-10.5-10.5 C468.8,97.5,473.5,92.9,479.2,92.9"></path>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="wrap-box">
+                            <p class="subscribe">
+                                Subscribe to Aesop communications
+                            </p>
+                            <form>
+                                <input class="hide" type="email" placeholder="Email address">
+                            </form>
+                        </div>
+                       
+                    </div>
+
+                    <div class="right-area">
+                        <ul class="footer-menu-name">
+                            <li class="footer-menu-detail top">Orders support</li>
+                            <li class="footer-menu-detail">Contact us</li>
+                            <li class="footer-menu-detail">FAQ</li>
+                            <li class="footer-menu-detail">Shipping </li>
+                        </ul>
+                        <ul class="footer-menu-name">
+                            <li class="footer-menu-detail top">ABOUT</li> 
+                            <li class="footer-menu-detail">Our story</li>
+                            <li class="footer-menu-detail">Foundation</li>
+                            <li class="footer-menu-detail">Careers</li>
+                        </ul>
+                        <ul class="footer-menu-name">
+                            <li class="footer-menu-detail top">Social media</li> 
+                            <li class="footer-menu-detail">Instagram</li>
+                            <li class="footer-menu-detail">Twitter</li>
+                            <li class="footer-menu-detail">Linkedin</li>
+                        </ul>
+                        <ul class="footer-menu-name">
+                            <li class="footer-menu-detail top">Sustainability</li> 
+                            <li class="footer-menu-detail">
+                                All Aesop products are 
+                                vegan, and we do not test 
+                                our formulations or 
+                                ingredients on animals. 
+                                We are Leaping Bunny 
+                                approved and a Certified 
+                                B Corporation. 
+                            </li>
+                          
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
