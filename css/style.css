@@ -1549,3 +1549,70 @@ footer .footer-menu-detail.top{
 
 
 }
+
+@media(max-width : 400px){
+    .sec-1 .category-box {
+        height: 300px;
+    }
+
+    .sec-1 .img {
+        height: 250px;
+    }
+    .sec-1 .btn {
+        height: calc(100% - 250px);
+    }
+
+    .sec-1 .btn-view {
+        padding: 0 8px;
+    }
+
+    .sec-1 .btn-view p {
+        font-size: 1rem;
+    }
+
+    .sec-1 .btn-view .arrow {
+        width: 50px;
+    }
+
+    .sec-1 .title {
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 8px 8px 0;
+    }
+
+    .sec-1 .content {
+        font-size: 0.875rem;
+        margin: 8px 8px 0;
+    }
+
+
+    .sec-2 .logo {
+        width: 200px;
+    }
+
+    .sec-2 .main-title {
+        line-height: 44px; 
+    }
+
+    .sec-2 .sub-title {
+        font-size: 1.5rem;
+    }
+
+    .sec-2 .explain {
+        font-size: 1rem;
+    }
+
+
+    .sec-4 .container {
+        padding: 50px 0;
+    }
+
+    .sec-4 .main-title {
+        margin: 8px;
+    }
+
+    .sec-4 .sub-title {
+        margin: 8px;
+    }
+    
+}
