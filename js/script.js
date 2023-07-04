@@ -83,8 +83,8 @@ if(sct >= main && sct < sec1 ){
 
     // sec-1 swiper
 
-    var ww = $(window).width();
-    var mySwiper = undefined;
+    let ww = $(window).width();
+    let mySwiper = undefined;
     
     function initSwiper() {
     
